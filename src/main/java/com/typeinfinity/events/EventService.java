@@ -31,7 +31,7 @@ public class EventService {
 
     /* -- Java 8
     public List<TrainingEvent> findEventsIn2(String location) {
-        return com.typeinfinity.events.stream().filter(
+        return events.stream().filter(
             event -> event.getLocation().equals(location)
         ).collect(Collectors.toList());
     }
